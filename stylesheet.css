@@ -1,0 +1,74 @@
+@media only screen and (max-width: 750px) {
+    img { max-width: 100%; }
+}
+body {
+    width: 800px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    font-size: 30px;
+    color: rgb(224, 11, 11);
+    
+}
+header ul {
+ display: inline-flex;
+ color: black;
+ font-size: small;
+ text-align: center;
+}
+.item{
+    background-image: url(../html.gazo/Gozo.jpg);
+    font-size: 30px;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+.body{
+    background-image: url(../html.gazo/お金が使えない様子.jpg);
+    font-size: large;
+    color: white;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 400px;
+
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+div {
+    display: flex;
+    flex: 1;
+}
+main {
+    flex: 1;
+    background-color: turquoise;
+}
+nav {
+    width: 150px;
+    background-color: thistle;
+}
+aside {
+    width: 200px;
+    background-color: yellow;
+}
+footer{
+    height: 200px;
+} 
+.pagination {
+    display: flex;
+    flex: 1;
+    list-style: none;
+
+}
+.page-link{
+    padding: 15px;
+}
